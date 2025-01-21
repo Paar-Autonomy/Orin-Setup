@@ -311,6 +311,17 @@ sudo jetson_clocks
 Also set fan speed to maximal:
 ```bash
 sudo jetson_clocks --fan
+
+### Install Bazel
+
+To install Bazel, you can run the following:
+```bash
+cd ~/Downloads
+wget https://github.com/bazelbuild/bazelisk/releases/download/v1.8.1/bazelisk-linux-arm64
+chmod +x bazelisk-linux-arm64
+sudo mv bazelisk-linux-arm64 /usr/local/bin/bazel
+which bazel
+```
 ```
 
 
