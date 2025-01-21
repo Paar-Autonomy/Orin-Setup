@@ -84,6 +84,7 @@ make
 
 After checking CUDA, we will check cuDNN:
 ```bash
+export CUDA_VER=12.2
 cp -r /usr/src/cudnn_samples_v8/ ~/Documents/workspace/
 cd cudnn_samples_v8/mnistCUDNN/
 sudo apt install libfreeimage3 libfreeimage-dev
